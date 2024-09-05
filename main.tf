@@ -60,7 +60,7 @@ resource "aws_ecs_task_definition" "medusa" {
 
   container_definitions = jsonencode([{
     name      = "medusa"
-    image     = "your-docker-image" # Replace with your Medusa Docker image
+    image     = "nginx:latest" # Replace with your Medusa Docker image
     essential = true
     portMappings = [
       {
