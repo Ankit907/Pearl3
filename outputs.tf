@@ -3,6 +3,6 @@ output "cluster_id" {
 }
 
 output "service_name" {
-  value = aws_ecs_service.medusa.name
+  value = aws_ecs_service.medusa.namx
 }
 
